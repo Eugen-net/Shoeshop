@@ -1,0 +1,7 @@
+Thumbs.db
+/*.zip
+/*.psd
+/*.jpg
+/.sass-cache/*
+/node_modules/*
+run_shoeshop.cmd
