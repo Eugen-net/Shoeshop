@@ -20,3 +20,32 @@ git config --remove-section user	- убирает дубли (имя, почта)
 
 git config -h				- справка
 
+git help config
+
+Commit:
+git add *
+git commit
+
+
+Выгрузка на github:
+
+git remote add origin git@github.com:Eugen-net/Shoeshop.git
+git push -u origin master
+
+
+VIM
+
+Press the ESC key
+Type :wq
+Press the ENTER key	Save a file and exit.
+
+
+
+Command	Description
+Press the ESC key
+Type :q!
+Press the ENTER key	Exit vim without saving changes i.e. discards any changes you made.
+
+Press the ESC key
+Type :x
+Press the ENTER key	Save a file and exit.
