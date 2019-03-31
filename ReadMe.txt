@@ -33,6 +33,10 @@ git remote add origin git@github.com:Eugen-net/Shoeshop.git
 git push -u origin master
 
 
+How to work both:
+https://habr.com/ru/post/273897/
+
+
 VIM
 
 Press the ESC key
