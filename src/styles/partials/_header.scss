@@ -1,49 +1,115 @@
-body{
-
-	background-color: #333;
-}
 #header {
   width: 100%;
   height:1028px;
   position: relative;
   top:0;
-  // z-index: 10;
-  // color: #000;
-  // border-bottom: 1px solid #000;
-  // @include transition(300ms);
+	background-color: #e9e9e9;
 
-  #menu {
+		.bg {
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			border-top: 1028px solid #82f4d3;
+	    border-left: 341px solid transparent;
+	    height: 0;
+	    width: 588px;
+		}
 
-    .line-wrapp{
-    	width: 18px;
-    	height: 12px;
-    	margin: 63px 59px;
-    	transition: all 600ms ease-in-out;
-    }
+		.banner {
+			display: block;
+			position: absolute;
+			top: 212px;
+    	right: 371px;
+			width: 759px;
+			height: 768px;
+			background-image: url(../images/img-banner-shoe-1.png);
+			background-repeat: no-repeat;
+		}
 
-    .active.line-wrapp{
-    	transform: rotate(180deg);
-    }
+	.logo {
+		display: inline-block;
+		overflow: hidden;
+		position: relative;
+		z-index: 10;
+		width: 176px;
+		height: 36px;
+		margin: 65px 0 0 213px;
+		background-image: url(../images/bg-logo.png);
+		background-repeat: no-repeat;
 
-    .line{
-    	width: 18px;
-    	height: 2px;
-    	background-color: #fff;
-    	transition: all 600ms ease-in-out;
-    }
+		a {
+			display: block;
+			overflow: visible;
+			width: 100%;
+			height: 100%;
+			text-indent: -9999px;
+		}
+	}
 
-    .line.center{
-    	margin: 3px 0;
-    }
+  .menu {
+    	display: inline-block;
+			position: relative;
+			overflow: visible;
+			float: right;
+			height: 55px;
+			width: 55px;
+			border-radius: 50%;
+			background-color: #000;
+			margin: 62px 214px 0 0;
+			cursor: pointer;
 
-    .active .line.top{
-    	width: 12px;
-    	transform: translateX(8px) translateY(1px) rotate(45deg);
-    }
+			.line {
+				display: block;
+				position: relative;
+				width: 17px;
+				height: 2px;
+				background-color: #fff;
+				margin: 0 auto;
+			}
 
-    .active .line.bottom{
-    	width: 12px;
-    	transform: translateX(8px) translateY(-1px) rotate(-45deg);
-    }
+			.top {
+				margin: 21px auto 4px auto;
+			}
+
+			.bottom {
+				margin: 4px auto 0px auto;
+			}
+
+			&::before {
+				content: "";
+				display: block;
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				top: 22px;
+		    right: 75px;
+		    border: 2px solid #000;
+				border-radius: 50%;
+				cursor: auto;
+			}
+
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				top: 22px;
+    		right: 106px;
+				border: 2px solid #000;
+				border-radius: 50%;
+				cursor: auto;
+			}
   }
+
+	.description {
+		display: inline-block;
+		position: relative;
+		float: left;
+		width: 65px;
+		height: 335px;
+		transform: rotate(90deg);
+ 		transform-origin: left top 0;
+	}
 }

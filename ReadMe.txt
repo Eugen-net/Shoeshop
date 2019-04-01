@@ -5,7 +5,7 @@ npm install grunt --save-dev
 https://frontender.info/a-beginners-guide-to-grunt-redux/
 
 
-
+Atom + Git (GitHub): https://medium.com/@alivander/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-git-%D0%B8-github-%D0%B2-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0-atom-bd09ae13d4c4
 
 
 GIT:
@@ -21,6 +21,9 @@ git config --remove-section user	- убирает дубли (имя, почта)
 git config -h				- справка
 
 git help config
+
+Ignore list: (in current directory)
+git check-ignore -v *
 
 Commit:
 git add *
