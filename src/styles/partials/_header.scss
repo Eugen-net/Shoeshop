@@ -103,13 +103,98 @@
 			}
   }
 
+  .shop-by {
+    display: block;
+    position: absolute;
+    width: 364px;
+    height: 213px;
+    top: 212px;
+    left: 216px;
+    background-image: url(../images/bg-header-nike.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    span {
+      display: block;
+      position: relative;
+      width: 290px;
+      height: 58px;
+      background-color: #82f4d3;
+      float: right;
+      margin: 142px 0 0 0;
+      z-index: 1;
+    }
+
+    .frame {
+      display: block;
+      position: absolute;
+      background-color: #e9e9e9;
+      border: 2px solid #82f4d3;
+      border-radius: 3px;
+      margin: 151px 0 0 61px;
+      z-index: 0;
+    }
+  }
+
 	.description {
-		display: inline-block;
-		position: relative;
-		float: left;
-		width: 65px;
-		height: 335px;
-		transform: rotate(90deg);
+		display: block;
+		position: absolute;
+		width: 335px;
+		height: 65px;
+    bottom: 25px;
+    left: 115px;
+		transform: rotate(270deg);
  		transform-origin: left top 0;
 	}
+
+  .social {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 54px;
+    height: 301px;
+    margin: 560px 0 0 1505px;
+
+    li {
+      display: block;
+      overflow: hidden;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background-color: #151515;
+      cursor: pointer;
+
+      &:first-child {
+        background-color: #fff;
+      }
+
+      span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      .tw {
+        background-image: url(../images/ico-tw.png);
+      }
+
+      .fb {
+        background-image: url(../images/ico-fb.png);
+      }
+
+      .gg {
+        background-image: url(../images/ico-gg.png);
+      }
+
+      .pi {
+        background-image: url(../images/ico-pi.png);
+      }
+    }
+  }
 }

@@ -1,3 +1,3 @@
 module.exports = {
-  subfolders: ['dist/*/']
+  folder: ['dist/images/', 'dist/scripts/', 'dist/styles/']
 };

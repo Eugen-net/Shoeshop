@@ -1,6 +1,27 @@
-#footer{
-  background: $color2;
-  color: #fff;
-  padding: 25px 0;
-  text-align: center;
+#main{
+
+  .about-us {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 100px 0 0 0;
+
+    h2 {
+      display: block;
+      position: relative;
+      width: 500px;
+      height: 35px;
+      margin: 205px 0 0 0;
+    }
+
+    p {
+      display: block;
+      position: relative;
+      width: 585px;
+      height: auto;
+      margin: 20px 0 0 0;
+    }
+  }
 }
