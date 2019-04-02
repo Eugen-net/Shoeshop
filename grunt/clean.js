@@ -1,5 +1,3 @@
 module.exports = {
-  all: [
-    "dist/"
-  ]
+  subfolders: ['dist/*/']
 };
