@@ -3,17 +3,34 @@
   .about-us {
     display: block;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     width: 100%;
     height: auto;
+    // height: 750px;
     margin: 100px 0 0 0;
+
+    .shoe {
+      display: block;
+      position: absolute;
+      width: 671px;
+      height: 570px;
+      top: -200px;
+      left: 106px;
+      background-image: url(../images/img-about-us-shoe.png);
+      background-repeat: no-repeat;
+      border: 1px solid #f8f8f8;
+      outline: 7px solid #fff;
+      -webkit-box-shadow: 0px 0px 12px 15px rgba(238,237,237,1);
+      -moz-box-shadow: 0px 0px 12px 15px rgba(238,237,237,1);
+      box-shadow: 0px 0px 12px 15px rgba(238,237,237,1);
+    }
 
     h2 {
       display: block;
       position: relative;
       width: 500px;
       height: 35px;
-      margin: 205px 0 0 0;
+      margin: 310px 0 0 735px;
     }
 
     p {
@@ -21,7 +38,36 @@
       position: relative;
       width: 585px;
       height: auto;
-      margin: 20px 0 0 0;
+      margin: 30px 0 0 735px;
+    }
+
+    .button {
+      display: block;
+      position: relative;
+      overflow: visible;
+      width: 146px;
+      height: 47px;
+      margin: 55px 0 260px 1240px;
+
+      .view {
+        display: block;
+        position: relative;
+        width: 146px;
+        height: 47px;
+        background-color: #82f4d3;
+        z-index: 1;
+      }
+
+      .frame {
+        display: block;
+        position: relative;
+        width: 146px;
+        height: 47px;
+        background-color: #fff;
+        border: 1px solid #82f4d3;
+        border-radius: 1px;
+        margin: -58px 0 0 -12px;
+      }
     }
   }
 }
