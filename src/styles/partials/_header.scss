@@ -123,6 +123,12 @@
       float: right;
       margin: 142px 0 0 0;
       z-index: 1;
+      font: bold 25px Poppins;
+      color: #323237;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 60px;
     }
 
     .frame {
@@ -141,10 +147,17 @@
 		position: absolute;
 		width: 335px;
 		height: 65px;
-    bottom: 25px;
-    left: 115px;
+    bottom: 24px;
+    left: 113px;
 		transform: rotate(270deg);
  		transform-origin: left top 0;
+
+    p {
+      font: normal 14px Poppins;
+      color: #8f8f8f;
+      letter-spacing: 0.75px;
+      line-height: 25px;
+    }
 	}
 
   .social {
