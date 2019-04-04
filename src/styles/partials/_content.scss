@@ -282,7 +282,6 @@
     overflow: hidden;
     width: auto;
     height: auto;
-    height: 750px;
     margin: 100px 0 0 0;
     background: #f8f8f8;
 
@@ -347,7 +346,7 @@
       height: 0px;
       float: right;
       border: 1px solid #c6c6c6;
-      margin: -20px 100px 0 0;
+      margin: -20px 100px 241px 0;
 
       hr {
         width: 31px;
@@ -355,6 +354,47 @@
         margin: 7px 0 0 83px;
         transform: rotate(150deg);
       }
+    }
+  }
+
+  .blog {
+    display: block;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    height: 750px;
+    margin: 100px 0 0 0;
+
+    h2 {
+      display: block;
+      position: relative;
+      width: auto;
+      height: 35px;
+      margin: -10px 0 48px 0;
+      text-align: center;
+      @include h2;
+    }
+
+    h3 {
+      display: block;
+      position: relative;
+      width: auto;
+      height: auto;
+      margin: 102px 0 0 812px;
+      font: normal 20px Poppins;
+      color: #000;
+    }
+
+    p {
+      display: block;
+      overflow: hidden;
+      width: 533px;
+      height: auto;
+      float: right;
+      margin: 25px 258px 0 0;
+      font: 500 15px Poppins;
+      color: #888;
+      line-height: 25px;
     }
   }
 }

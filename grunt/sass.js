@@ -2,7 +2,8 @@ module.exports = {
   // Настройки для разработки
   dev: {
     options: {
-      style: 'nested',
+      // style: 'expanded'
+      // style: 'nested',     //Выдало ошибку 04.04.19 на ПК ???
       // sourceMap: true
     },
     files: [{
