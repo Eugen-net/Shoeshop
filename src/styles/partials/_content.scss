@@ -207,7 +207,8 @@
 			display: block;
 			position: relative;
 			width: 293px;
-			height: 388px;float: right;
+			height: 388px;
+      float: right;
       margin: 258px -580px 0 0;
 			z-index: -1;
       background-color: #97edd4;
@@ -362,7 +363,7 @@
     overflow: hidden;
     width: auto;
     height: auto;
-    height: 750px;
+    height: 838px;
     margin: 100px 0 0 0;
 
     h2 {
@@ -391,10 +392,234 @@
       width: 533px;
       height: auto;
       float: right;
-      margin: 25px 258px 0 0;
+      margin: -555px 258px 0 0;
       font: 500 15px Poppins;
       color: #888;
       line-height: 25px;
     }
+
+    img {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      float: left;
+      width: 425px;
+      height: 460px;
+      margin: -31px 0 0 299px;
+      border: 1px solid #f8f8f8;
+      outline: 7px solid #fff;
+      -webkit-box-shadow: 0px 0px 12px 15px rgba(238,237,237,1);
+      -moz-box-shadow: 0px 0px 12px 15px rgba(238,237,237,1);
+      box-shadow: 0px 0px 12px 15px rgba(238,237,237,1);
+    }
+
+    .frame-border {
+      display: block;
+      position: relative;
+      width: 265px;
+      height: 350px;
+      margin: -93px 0 0 231px;
+      border: 10px solid #f9f9f9;
+      border-radius: 8px;
+      z-index: -1;
+    }
+
+    .bg {
+			display: block;
+			position: relative;
+			width: 265px;
+			height: 350px;
+      float: left;
+      margin: -47px 0 0 -107px;
+			z-index: -1;
+      background-color: #97edd4;
+      /* IE9, iOS 3.2+ */
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiNjOWY5ZWIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzY1ZTBiYyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+      background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0, rgb(201, 249, 235)),color-stop(1, rgb(101, 224, 188)));
+      /* Android 2.3 */
+      background-image: -webkit-linear-gradient(top left,rgb(201, 249, 235) 0%,rgb(101, 224, 188) 100%);
+      /* IE10+ */
+      background-image: linear-gradient(to bottom right,rgb(201, 249, 235) 0%,rgb(101, 224, 188) 100%);
+      background-image: -ms-linear-gradient(top left,rgb(201, 249, 235) 0%,rgb(101, 224, 188) 100%);
+
+      span {
+        display: block;
+        position: relative;
+        width: auto;
+        height: auto;
+        margin: 359px 0 0 199px;
+        transform: rotate(270deg);
+     		transform-origin: left top 0;
+        font: bold 154px Poppins;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: .15;
+        letter-spacing: 5px;
+        line-height: 25px;
+      }
+		}
+
+    .button {
+      display: block;
+      position: relative;
+      overflow: visible;
+      float: right;
+      width: 146px;
+      height: 47px;
+      margin: -387px 213px 0 0;
+
+      .view {
+        display: block;
+        position: relative;
+        width: 146px;
+        height: 47px;
+        background-color: #82f4d3;
+        z-index: 1;
+        font: normal 15px Poppins;
+        color: #0a0a0a;
+        text-align: center;
+        letter-spacing: 0.2px;
+        line-height: 50px;
+        cursor: pointer;
+      }
+
+      .frame {
+        display: block;
+        position: relative;
+        width: 146px;
+        height: 47px;
+        background-color: #fff;
+        border: 1px solid #82f4d3;
+        border-radius: 1px;
+        margin: -58px 0 0 -12px;
+      }
+    }
+
+    .nav {
+      display: block;
+      position: relative;
+      width: 325px;
+      height: 30px;
+      float: right;
+      margin: -130px 210px 0 0;
+
+      .pseudo {
+        display: inline-block;
+        position: relative;
+        width: 90px;
+        height: 30px;
+        margin: -14px 0 0 92px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          position: relative;
+          width: 43px;
+          height: 0px;
+          margin: 0 0 7px 0;
+          border: 1px solid #7f7f7f;
+        }
+
+        &::after {
+          content: "";
+          display: inline-block;
+          position: relative;
+          width: 17px;
+          height: 17px;
+          margin: 0 0 -7px 15px;
+          border: 6px solid #97f0d6;
+          border-radius: 50%;
+        }
+      }
+
+      .date {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 30px;
+        margin: 0 0 0 13px;
+        font: normal 20px Poppins;
+
+        .separator {
+          margin: 0 10px 0 10px;
+        }
+
+        .month {
+          display: inline-block;
+          position: relative;
+          margin: 0 0 0 0px;
+        }
+      }
+
+      .prev {
+        display: inline-block;
+        position: relative;
+        margin: 10px 22px 0 0;
+        float: right;
+        cursor: pointer;
+
+        &::before {
+  				content: "";
+  				display: block;
+  				position: relative;
+  				width: 10px;
+  				height: 2px;
+          margin: 0 0 0 0;
+          background-color: #181818;
+          transform: rotate(135deg);
+  			}
+
+  			&::after {
+          content: "";
+  				display: block;
+  				position: relative;
+  				width: 10px;
+  				height: 2px;
+          margin: 5px 0 0 0;
+          background-color: #181818;
+          transform: rotate(45deg);
+  			}
+      }
+
+      .next {
+        display: inline-block;
+        position: relative;
+        margin: 10px -32px 0 0;
+        float: right;
+        cursor: pointer;
+
+        &::before {
+  				content: "";
+  				display: block;
+  				position: relative;
+  				width: 10px;
+  				height: 2px;
+          margin: 0 0 0 0;
+          background-color: #5cdeb7;
+          transform: rotate(45deg);
+  			}
+
+  			&::after {
+          content: "";
+  				display: block;
+  				position: relative;
+  				width: 10px;
+  				height: 2px;
+          margin: 5px 0 0 0;
+          background-color: #5cdeb7;
+          transform: rotate(135deg);
+  			}
+      }
+    }
+  }
+
+  .line {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 1170px;
+    height: 0;
+    margin: 0 auto;
+    border: 1px solid #eee;
   }
 }
